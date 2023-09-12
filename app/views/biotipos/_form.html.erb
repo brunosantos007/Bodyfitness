@@ -1,0 +1,22 @@
+<%= form_with(model: biotipo) do |form| %>
+  <% if biotipo.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(biotipo.errors.count, "error") %> prohibited this biotipo from being saved:</h2>
+
+      <ul>
+        <% biotipo.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :biotipo, style: "display: block" %>
+    <%= form.text_field :biotipo %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

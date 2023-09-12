@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Biotipos</h1>
+
+<div id="biotipos">
+  <% @biotipos.each do |biotipo| %>
+    <%= render biotipo %>
+    <p>
+      <%= link_to "Show this biotipo", biotipo %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New biotipo", new_biotipo_path %>

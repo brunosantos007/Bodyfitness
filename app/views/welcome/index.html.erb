@@ -1,0 +1,168 @@
+<%= stylesheet_link_tag "welcome", "data-turbo-track": "reload" %>
+<div class="container">
+    <div class="welcome-gym">
+      <h1>Bem-vindo à Academia <span class="title-bodyfitness">BODYFITNESS</span> </h1>
+      <p>O seu destino para alcançar um estilo de vida mais saudável e ativo. Nossa missão é inspirar e capacitar você a atingir seus objetivos de condicionamento físico e bem-estar. Descubra nossa variedade de programas e serviços personalizados, liderados por instrutores apaixonados, e comece sua jornada de transformação hoje mesmo!
+  </p>
+    </div>
+      
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <%= image_tag('homem-forte-treinando-na-academia', class:"d-block w-100") %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag('homem-jovem-em-sportswear-um-classe-exercicio-em-um-ginasio.', class:"d-block w-100") %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag('risen-wang-20jX9b35r_M-unsplash', class:"d-block w-100") %>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <div class="about-gym">
+    <h1><span class="title-bodyfitness">Sobre a Academia:</span></h1>
+    <p>Fundada em BodyFitness, a Academia BodyFitness é o resultado de anos de dedicação ao fitness e à saúde. Nossa equipe de profissionais qualificados está comprometida em ajudar você a se tornar a melhor versão de si mesmo. Com valores fundamentais de dedicação, compromisso e excelência, estamos aqui para apoiar sua jornada de fitness.
+    </p>
+    <div class="img-draw">
+      <%= image_tag('Gym-bro', class:"d-block w-100", margin:"Auto") %>
+    </div>
+  </div>
+
+  <div class="about-plans">
+    <h1><span class="title-bodyfitness">Planos:</span></h1>
+    <p>Temos planos de adesão flexíveis para atender às suas necessidades de condicionamento físico. Escolha entre planos mensais, trimestrais ou anuais e aproveite nossa oferta de avaliação gratuita por 1 dia. Nossos preços acessíveis e descontos sazonais garantem que você tenha acesso a programas de qualidade sem quebrar o banco. Entre em contato conosco para obter mais informações.
+    </p>
+
+  <div class="card-main">
+    <div class="card" style="width: 18rem;">
+          <%= image_tag('craig-lovelidge-yDGsn39fbD4-unsplash', class:"card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">Basic</h5>
+            <p class="card-text">O Plano Básico é perfeito para quem está começando sua jornada de condicionamento físico ou procura uma opção de baixo custo para manter um estilo de vida ativo.</p>
+          </div>
+          <div class="btn-plans-card">
+            <a href="#" class="btn btn-dark">Adquira o Plano Basic</a>
+          </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+          <%= image_tag('michael-starkie-F412aTVczu0-unsplash', class:"card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">Medium</h5>
+            <p class="card-text">O Plano Médio é ideal para aqueles que desejam um equilíbrio entre variedade de serviços e acessibilidade.</p>
+          </div>
+          <div class="btn-plans-card">
+            <a href="#" class="btn btn-dark">Adquira o Plano Medium</a>
+          </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+          <%= image_tag('b-mat-an-gelo-ZU23GWLoCWc-unsplash', class:"card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">Ultra</h5>
+            <p class="card-text">O Plano Ultra é a escolha premium para aqueles que buscam o máximo em resultados e atendimento personalizado.</p>
+          </div>
+          <div class="btn-plans-card">
+            <a href="#" class="btn btn-dark">Adquira o Plano Ultra</a>
+          </div>
+    </div>
+  </div>
+
+    <div class="instrutores">
+      <div class="about-personal">
+        <h1><span class="title-bodyfitness">Nossos Instrutores Especializados:</span></h1>
+        <p>Na Acade mia BODYFITNESS, estamos orgulhosos de contar com uma equipe de instrutores altamente qualificados e dedicados, prontos para guiá-lo em sua jornada de condicionamento físico. Nossos instrutores são mais do que apenas profissionais de fitness; eles são mentores apaixonados que estão comprometidos com o seu sucesso. Conheça alguns dos membros da nossa equipe:</p>
+      </div>
+
+      <div class="personal-context">
+        <div class="img-personal">
+          <%= image_tag('instrutores/rohit-reddy-FGP9ifRTQaI-unsplash') %>
+        </div>
+        <div class="about-personal">
+          <h3><span class="title-bodyfitness">John Anderson</span></h3>
+          <p>John Anderson é um instrutor de musculação dedicado e um especialista em treinamento de força. Com uma abordagem baseada em ciência, ele trabalha com seus alunos para alcançar ganhos de força e massa muscular de forma segura e eficaz. John acredita que o desenvolvimento físico é uma jornada que exige compromisso, consistência e uma sólida base de conhecimento. Ele está aqui para orientar você em direção aos seus objetivos de condicionamento físico..</p>
+        </div>
+      </div>
+
+      <div class="personal-context">
+        <div class="img-personal personal-right">
+          <%= image_tag('instrutores/julia-rekamie-Z72YujnOrlY-unsplash') %>
+        </div>
+        <div class="about-personal personal-right">
+          <h3><span class="title-bodyfitness">Júlia Rekamie</span></h3>
+          <p>Júlia Rekamie é uma instrutora apaixonada por fitness e bem-estar. Com mais de 10 anos de experiência, ela se especializa em aulas de ioga e pilates, ajudando os alunos a encontrar equilíbrio, flexibilidade e paz interior. Sarah acredita que a jornada de condicionamento físico é uma busca holística que engloba mente, corpo e espírito. Ela está comprometida em guiar seus alunos em direção à harmonia e ao bem-estar.</p>
+        </div>
+      </div>
+
+      <div class="personal-context">
+        <div class="img-personal">
+          <%= image_tag('instrutores/spencer-davis-0ShTs8iPY28-unsplash') %>
+        </div>
+        <div class="about-personal">
+          <h3> <span class="title-bodyfitness">Emily Reynolds</span></h3>
+          <p>Emily Reynolds é uma instrutora de treinamento funcional altamente energética. Com uma paixão pela resistência e pelo condicionamento, ela é conhecida por suas aulas desafiadoras que ajudam os alunos a superar seus limites. Emily acredita que o condicionamento físico é uma jornada pessoal de superação e crescimento, e ela está aqui para motivar e inspirar você em cada passo do caminho.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>

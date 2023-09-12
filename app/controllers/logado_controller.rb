@@ -1,0 +1,3 @@
+class LogadoController < ApplicationController
+end
+  

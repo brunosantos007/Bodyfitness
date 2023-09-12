@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@200&display=swap');
+
+.card-main{
+    display: flex;
+    justify-content: space-between;
+    color: #201F20;
+}
+.welcome-gym, .about-gym,.about-plans, .instrutores{
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+.about-plans p{
+    margin-bottom: 6rem;
+}
+.card{
+    color: black;
+    border: 1px solid black;
+    display: flex;
+}
+.title-bodyfitness{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+}
+.card-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+}
+.btn-plans-card{
+    margin: auto;
+}
+.btn-dark{
+    background-color: #120e0e;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.personal-context{
+    display: flex;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    justify-content: space-around;
+}
+.about-personal{
+    max-width: 100%;
+    margin: none;
+}
+.about-personal h3,p{
+    max-width: 100%;
+    text-align: justify;
+}
+.img-personal img{
+    max-width: 75%;
+    border-radius: 15%;
+    border: 3px solid white;
+}
+.register{
+    background-color: #201F20;
+    border: 1px solid white;
+}
+
+@media (max-width: 400px) {
+    .card-main{
+        display: inline;
+        color: white;
+    }
+    .card{
+        margin: auto;
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+    }
+    .personal-context{
+        display: inline;
+        margin: auto;
+    }
+    .img-personal{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .about-personal h3{
+        text-align: center;
+    }
+   
+}

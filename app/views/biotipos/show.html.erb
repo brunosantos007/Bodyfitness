@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @biotipo %>
+
+<div>
+  <%= link_to "Edit this biotipo", edit_biotipo_path(@biotipo) %> |
+  <%= link_to "Back to biotipos", biotipos_path %>
+
+  <%= button_to "Destroy this biotipo", @biotipo, method: :delete %>
+</div>

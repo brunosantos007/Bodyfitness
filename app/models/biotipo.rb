@@ -1,0 +1,2 @@
+class Biotipo < ApplicationRecord
+end
